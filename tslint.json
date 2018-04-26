@@ -1,0 +1,100 @@
+{
+    /*
+     * Possible values:
+     * - the name of a built-in config
+     * - the name of an NPM module which has a "main" file that exports a config object
+     * - a relative path to a JSON file
+     */
+    "extends": [
+        "tslint:latest",
+        "tslint-react",
+        "tslint-eslint-rules"
+    ],
+    "rules": {
+        // eslint
+        "jsx-no-multiline-js": false,
+        "no-constant-condition": true,
+        "no-control-regex": true,
+        "no-duplicate-case": true,
+        "no-ex-assign": true,
+        "no-extra-boolean-cast": true,
+        "no-extra-semi": true,
+        "no-inner-declarations": true,
+        "no-invalid-regexp": true,
+        "no-irregular-whitespace": true,
+        "no-regex-spaces": true,
+        "no-sparse-arrays": true,
+        "no-string-literal": false,
+        "no-unexpected-multiline": true,
+        "valid-typeof": true,
+        // tslint
+        "array-type": [
+            true,
+            "array"
+        ],
+        "arrow-parens": [
+            false
+        ],
+        "max-classes-per-file": [
+            false
+        ],
+        "max-line-length": [
+            false
+        ],
+        "member-ordering": [
+            false
+        ],
+        "no-console": [
+            false
+        ],
+        "no-submodule-imports": [
+            false
+        ],
+        "no-unused-variable": [
+            true,
+            "react"
+        ],
+        "no-var-requires": false,
+        "object-literal-shorthand": false,
+        "object-literal-sort-keys": false,
+        "object-literal-key-quotes": [
+            false
+        ],
+        "one-line": [
+            false
+        ],
+        "ordered-imports": [
+            false
+        ],
+        "quotemark": [
+            false
+        ],
+        "switch-default": false,
+        "trailing-comma": [
+            false
+        ],
+        "variable-name": [
+            false
+        ],
+        //tslint-react
+        "jsx-no-lambda": false,
+        "jsx-self-close": true,
+        "jsx-wrap-multiline": false,
+        "jsx-curly-spacing": false,
+        "no-consecutive-blank-lines": [
+            false
+        ]
+    },
+    "jsRules": {
+        /*
+       * Any rules specified here will override those from the base config we are extending.
+       */
+        "curly": true
+    },
+    "rulesDirectory": [
+        /*
+       * A list of relative or absolute paths to directories that contain custom rules.
+       * See the Custom Rules documentation below for more details.
+       */
+    ]
+}

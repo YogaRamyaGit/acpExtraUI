@@ -1,0 +1,2 @@
+export const SET_ERROR_CODE = 'SET_ERROR_CODE';
+export const RESET_ERROR_CODE = 'RESET_ERROR_CODE';

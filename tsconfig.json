@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "sourceMap": true,
+        "target": "es5",
+        "jsx": "react",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "removeComments": true,
+        "outDir": "build"
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

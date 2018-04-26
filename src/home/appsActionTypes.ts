@@ -1,0 +1,1 @@
+export const SET_CURRENT_APP = 'SET_CURRENT_APP';

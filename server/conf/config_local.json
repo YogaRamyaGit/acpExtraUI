@@ -1,0 +1,9 @@
+{
+    "acp_wf_metadata" : {
+        "password" : "root",
+        "host" : "test-rds-test-aurora-edt-c1-rdscluster-1rn3885ctnj6f.cluster-cpdk4xuooxvm.us-east-1.rds.amazonaws.com",
+        "user" : "swatis",
+        "database" : "acp_wf_metadata",
+        "ssl_ca": "D:\\Users\\swatis\\Downloads\\rds-combined-ca-bundle.pem"
+    }
+}
